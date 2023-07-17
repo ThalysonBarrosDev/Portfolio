@@ -71,6 +71,12 @@ nav > .nav-mobile-icon > img {
     height: 32px;
 }
 
+/* Main */
+main {
+    margin: 25px 0px;
+    padding: 0px 7%;
+}
+
 /* Footer */
 footer {
     display: flex;
@@ -101,5 +107,9 @@ footer > span {
 
     nav > .nav-ul {
         display: none;
+    }
+
+    .active {
+        left: 0%;
     }
 }
