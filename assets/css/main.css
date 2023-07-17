@@ -88,6 +88,10 @@ footer > span {
 /* Responsiveness */
 @media (max-width: 960px) {
     /* Header */
+    header > span {
+        width: 50%;
+    }
+
     nav > .nav-mobile-icon {
         display: block;
     }
