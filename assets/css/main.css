@@ -66,13 +66,13 @@ nav > .nav-ul > ul > li {
 }
 
 nav > .nav-ul > ul > li > a {
-    color: var(--white);
     text-decoration: none;
+    color: var(--white);
 }
 
 nav > .nav-ul > ul > li > a:hover {
-    color: var(--dark5);
-    transition: 0.5s;
+    transition: .4s;
+    color: var(--dark4);
 }
 
 /* Main */
@@ -154,12 +154,13 @@ main {
     height: 90px;
     text-align: center;
     margin: 0px 30px;
+    color: var(--white);
 }
 
 .my-stacks > div > p:hover {
     cursor: pointer;
-    color: var(--dark5);
-    transition: 0.5s;
+    color: var(--dark4);
+    transition: .4s;
 }
 
 .my-stacks > div > p > img {
