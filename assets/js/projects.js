@@ -29,7 +29,6 @@ function showProjects(data) {
         div.appendChild(a);
         listElement.appendChild(div);
     }
-
 }
 
 getProjects();
