@@ -1,17 +1,3 @@
-function getProjects() {
-    const urlGitHub = 'https://api.github.com/users/ThalysonBarrosDev/repos';
-    var loadingElement = document.getElementById('loading');
-
-    fetch(urlGitHub, {
-        method: 'GET',
-    }).then((response) => response.json()).then((response) => {
-        showProjects(response);
-        loadingElement.style.display = 'none';
-    }).catch((e) => {
-        console.log(`Error -> ${e}`);
-    });
-}
-
 function showProjects(data) {
     var listElement = document.getElementById('my-projects-list');
 
@@ -31,4 +17,16 @@ function showProjects(data) {
     }
 }
 
-getProjects();
+(function () {
+    const urlGitHub = 'https://api.github.com/users/ThalysonBarrosDev/repos';
+    var loadingElement = document.getElementById('loading');
+
+    fetch(urlGitHub, {
+        method: 'GET',
+    }).then((response) => response.json()).then((response) => {
+        showProjects(response);
+        loadingElement.style.display = 'none';
+    }).catch((e) => {
+        console.log(`Error -> ${e}`);
+    });
+})();
