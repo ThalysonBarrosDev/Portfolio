@@ -1,0 +1,59 @@
+@media (max-width: 960px) {
+    /* Header */
+    header>span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    nav {
+        display: none;
+    }
+
+    /* Main */
+    .my-profile-init {
+        width: 100%;
+    }
+
+    .my-init {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .my-init>h1 {
+        text-align: center;
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .my-init>p {
+        margin-top: 15px;
+        font-size: 20px;
+    }
+
+    .my-img {
+        display: none;
+    }
+
+    .my-stacks {
+        padding-bottom: 15px;
+        height: 100%;
+    }
+
+    .my-stacks>h2 {
+        display: flex;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .my-stacks>div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .my-profile {
+        text-align: center;
+    }
+}
