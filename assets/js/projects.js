@@ -1,3 +1,4 @@
+/* Projects GitHub */
 function showProjects(data) {
     var listElement = document.getElementById('my-projects-list');
 
